@@ -1,0 +1,52 @@
+body {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/35/Fall_Wallpaper.jpg");
+  font-size: 18px;
+}
+
+.container {
+  min-height: 100vh;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.btn-primary {
+  background-color: #de3301;
+  border-color: #de3301;
+}
+
+.btn-primary:hover,
+.btn-primary:not(:disabled):not(.disabled):active {
+  background-color: #de3301;
+  border-color: #de3301;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+.btn-secondary {
+  background-color: #212529;
+  border-color: #212529;
+}
+
+.btn-secondary:hover,
+.btn-secondary:not(:disabled):not(.disabled):active {
+  background-color: #212529;
+  border-color: #212529;
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 80px;
+}
+
+#quoteDisplay {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  padding: 5px 0;
+}
